@@ -1,0 +1,19 @@
+{
+  "name": "lambdaba",
+  "version": "0.0.1",
+  "description": "lambda sample",
+  "main": "lambda.js",
+  "scripts": {
+    "test": "./node_modules/lambda-local/bin/lambda-local -l lambda.js -e event.js -t 10",
+  },
+  "author": "smczk",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.2.21",
+    "bluebird": "^3.0.6",
+    "jimp": "^0.2.20"
+  },
+  "devDependencies": {
+    "lambda-local": "0.0.6"
+  }
+}
